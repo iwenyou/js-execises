@@ -33,4 +33,16 @@
 //   }
 // }
 //Recreate the guess a number game between 1 and 100. That is, the computer chooses a random number between 1 and 100, and tells the user to pick higher or lower. The user has 10 tries. Use the prompt function to help you with this. (NOTE: prompt will return a string, and you may need to "cast" it into a number.)
-var num = Math.floor(Math.random()*100)
+// var num = Math.floor(Math.random() * 100);
+//
+// for (var i = 0; i < 10; i++) {
+//     var input = parseInt(prompt("guess a number(1 to 100)"));
+//     if (input > num) {
+//         window.alert("too high!");
+//     } else if (input == num) {
+//         window.alert("Bingo!");
+//         {break;}
+//     } else {
+//         window.alert("too low!");
+//     }
+// }
